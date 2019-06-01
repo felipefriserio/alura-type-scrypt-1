@@ -1,0 +1,21 @@
+{
+  "name": "alurabank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "start": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^2.0.42",
+    "typescript": "^2.3.2"
+  },
+  "dependencies": {
+    "compile-run": "^2.3.0",
+    "get-port": "^5.0.0"
+  }
+}

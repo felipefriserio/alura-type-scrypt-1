@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target"         : "es6",   // sera traduzido para qual compilador. Conversor para JavaScript
+        "outDir"         : "app/js", // resultado da compilacao vai para app/js
+        "noEmitOnError"  : true,
+        "noImplicitAny"  : true,
+        "removeComments" : true
+    },
+    "include": [          // quais arquivos tem que levar em consideracao
+        "app/ts/**/*"
+    ]
+}
